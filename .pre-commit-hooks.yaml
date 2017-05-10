@@ -1,0 +1,6 @@
+-   id: ansible-validate-modules
+    name: Validate Ansible Modules
+    description: This hook checks ansible odules for errors
+    entry: ansible-validate-modules
+    language: python
+    files: (library/*.py)$
